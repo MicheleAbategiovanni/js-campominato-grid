@@ -1,0 +1,6 @@
+.cell{
+    padding: 1rem;
+    border: 1px solid black;
+    flex-basis: calc(100% / 10);
+    aspect-ratio: 1/1;
+}
