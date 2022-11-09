@@ -2,9 +2,14 @@ const btnPlayEl = document.querySelector("button");
 const gridContainerEl = document.querySelector(".container");
 
 
+
 btnPlayEl.addEventListener("click", function () {
 
-    generateCells(gridContainerEl);
+    const selectLevelEl = document.querySelector("#difficultyLevel");
+
+    let difficultyEl = selectLevelEl.value;
+
+    generateCells(gridContainerEl, difficultyEl);
 
 })
 
