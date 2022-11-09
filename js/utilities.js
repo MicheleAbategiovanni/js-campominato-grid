@@ -2,6 +2,8 @@ function generateCells(html, valueselect) {
 
     const container = document.querySelector(".container");
 
+    container.innerHTML = "";
+
     if (valueselect == "1") {
 
         for (let i = 1; i <= 100; i++) {
