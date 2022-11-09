@@ -1,8 +1,12 @@
+.container{
+    max-width: 768px;
+}
+
 .cell {
     display: flex;
     justify-content: center;
     align-items: center;
     border: 1px solid black;
-    flex-basis: calc(100% / 10);
     aspect-ratio: 1/1;
+    width: 10%;
 }
